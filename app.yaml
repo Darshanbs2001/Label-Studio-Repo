@@ -1,3 +1,9 @@
 command:
   - bash
   - startup.sh
+env:
+  - name: CSRF_TRUSTED_ORIGINS
+    value: "https://label-studio-7474659221881655.aws.databricksapps.com"
+
+  - name: LABEL_STUDIO_HOST
+    value: "https://label-studio-7474659221881655.aws.databricksapps.com"
